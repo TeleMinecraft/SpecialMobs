@@ -1,0 +1,18 @@
+SkeletonKing:
+  Type: WITHER_SKELETON
+  Display: '&6&lSkeleton King'
+  Health: 500
+  Damage: 10
+  Skills:
+  - skill{s=SummonSkeletons} @self 0.1
+  - skill{s=SmashAttack} @target >0 0.3
+  Equipment:
+  - KingsCrown HEAD
+  - SkeletonKingSword HAND
+  Drops:
+  - SkeletonKingDrops
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
