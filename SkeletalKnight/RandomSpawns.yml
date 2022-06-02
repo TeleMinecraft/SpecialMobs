@@ -1,0 +1,9 @@
+RandomSkeletalKnight:
+  MobType: SkeletalKnight
+  Worlds: world,world_nether
+  Chance: 0.01
+  Priority: 1
+  Action: REPLACE
+  PointType: LAND
+  Conditions:
+  - outside true
