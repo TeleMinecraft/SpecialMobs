@@ -1,0 +1,19 @@
+SkeletalKnight:
+  Type: WITHER_SKELETON
+  Display: '&8&lSkeletal Knight'
+  Health: 40
+  Damage: 8
+  Equipment:
+  - IRON_HELMET HEAD
+  - IRON_CHESTPLATE CHEST
+  - IRON_LEGGINGS LEGS
+  - IRON_BOOTS FEET
+  - IRON_SWORD HAND
+  - SHIELD OFFHAND
+  Drops:
+  - SkeletalKnightItemDrops
+  LevelModifiers:
+  - health 5
+  - damage 0.5
+  Options:
+    MovementSpeed: 0.1
